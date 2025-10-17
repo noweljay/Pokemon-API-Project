@@ -1,0 +1,1 @@
+Type the name of the pokemon you want to see in the search bar. If entered a non-existent pokemon, an alert message will show. (There are pokemons that aren't fetchable in pokeapi, such as Giratina, Suicune, and etc. This is on pokeapi, and I can't control it)
