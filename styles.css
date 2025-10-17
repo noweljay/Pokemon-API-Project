@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #e5e5e5;
+  --pokemon-color: #ff3232;
+  --primary-text: #000000;
+}
+
+.darkmode {
+  --primary-color: #191919;
+  --secondary-color: #333333;
+  --primary-text: #ffffff;
+}
+
+header {
+  background-color: var(--pokemon-color);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+header h3 {
+  color: var(--primary-color);
+  padding: 0.5rem 1rem;
+  border: 4px solid var(--primary-color);
+  border-radius: 50px;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section .search-pokemon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+section .search-pokemon input {
+  padding: 0.5rem;
+  border-radius: 50px;
+}
+
+section .search-pokemon button {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  margin-left: 0.5rem;
+  background-color: var(--pokemon-color);
+  border: none;
+  color: var(--secondary-color);
+}
+
+main {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  background-color: var(--primary-color);
+  color: var(--primary-text);
+}
+
+.pokemon-container {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokemon-img img {
+  max-width: 300px; /* Fixed width */
+  height: 200px; /* Fixed height */
+  object-fit: contain; /* Better for maintaining aspect ratio */
+}
+
+.pokemon-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.container { 
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+@media (min-width: 475px) {
+    .container {
+        max-width: 475px;
+    }
+}
+
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+@media (min-width: 1536px) {
+    .container {
+        max-width: 1536px;
+    }
+}

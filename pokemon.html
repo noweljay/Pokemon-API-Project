@@ -1,0 +1,31 @@
+<body>
+  <header>
+  <h3>Pokemon API Project</h3>
+</header>
+
+<section class="container">
+  <div class="search-pokemon">
+    <input type="text" name="search" id="search-pokemon" placeholder="Search pokemon">
+    <button type="button" name="search" id="search" onclick="fetchPokemon()">Search</button>
+  </div>
+</section>
+
+<main class="container">
+    <div class="pokemon-container">
+      <div class="pokemon-id">
+        <h4 id="pokemon-id"></h4>
+      </div>
+      <div class="pokemon-img">
+        <img src="" style="display: none;" id="pokemon-img"/>
+      </div>
+      <div class="pokemon-info">
+        <h4 id="pokemon-name"></h4>
+        <p id="pokemon-type"></p>
+        <p id="pokemon-ability"></p>
+        <p id="pokemon-items"></p>
+        <p id="pokemon-weight"></p>
+        <p id="pokemon-height"></p>
+      </div>
+    </div>
+</main>
+</body>
